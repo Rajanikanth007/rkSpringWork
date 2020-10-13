@@ -9,7 +9,7 @@ public class WelcomeController {
 	@GetMapping("/welcome")
 	public String welcome()
 	{
-		return "welcome to first spring boot app development";
+		return "welcome to first spring boot app development. Modifying to check in github";
 	}
 
 }
